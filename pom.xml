@@ -11,9 +11,13 @@
 	<groupId>com.amogosservice</groupId>
 	<artifactId>amogosservices</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>amogosservices</name>
+    <packaging>pom</packaging>
+    <name>amogosservices</name>
 	<description>Demo project for Spring Boot</description>
-	<properties>
+    <modules>
+        <module>customer</module>
+    </modules>
+    <properties>
 		<java.version>17</java.version>
 		<spring.boot.maven.plugin.version>2.5.7</spring.boot.maven.plugin.version>
 		<spring.boot.dependencies.versin>2.5.7</spring.boot.dependencies.versin>
